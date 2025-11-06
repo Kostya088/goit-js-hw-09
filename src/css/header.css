@@ -4,6 +4,8 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
+  
 }
 .nav-logo {
   display: inline-flex;
@@ -11,6 +13,7 @@
   justify-content: center;
 }
 .nav-list {
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -22,6 +25,7 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
+  font-size: 40px;
 }
 .nav-link:hover,
 .nav-link:focus {
